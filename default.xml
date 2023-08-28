@@ -6,6 +6,7 @@
   <default remote="github" revision="khadas-vim3-p-64bit" sync-c="true" sync-j="4"/>
   
   <project name="android_kernel_configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7"/>
+  <project name="android_build_make" path="build/make" revision="4235ecb1d568248ad05f8be3f2b419d8a21c496a">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -18,6 +19,7 @@
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project name="android_compatibility_cdd" path="compatibility/cdd" revision="6a7d9427bac3349bd04e0d3358be8f8cc484bdb6"/>
   <project name="platform/cts" remote="aosp" path="cts" revision="56b70b5762a6e32f0af015e219c2eca533dfcb26"/>
+  
+  <repo-hooks enabled-list="pre-upload" in-project="android_tools_repohooks"/>
 </manifest>
