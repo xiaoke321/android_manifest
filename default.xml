@@ -21,5 +21,4 @@
   </project>
   <project name="platform/cts" remote="aosp" path="cts" revision="56b70b5762a6e32f0af015e219c2eca533dfcb26"/>
   
-  <repo-hooks enabled-list="pre-upload" in-project="android_tools_repohooks"/>
 </manifest>
