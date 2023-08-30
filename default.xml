@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp" review="https://aosp.tuna.tsinghua.edu.cn/"/>
+  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
   
   <default remote="github" revision="khadas-vim3-p-64bit" sync-c="true" sync-j="4"/>
