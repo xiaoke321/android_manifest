@@ -4,7 +4,7 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
   
-  <default remote="github" revision="khadas-vim3-p-64bit" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="khadas-vim3-p-64bit" sync-c="true" sync-j="1"/>
   
   <project name="android_vendor_amlogic_external_DTVKit_android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" revision="26a03a90834176ad73fda0345abb092d4220c66d"/>
   <project name="android_vendor_amlogic_external_DTVKit_releaseDTVKit" path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" revision="1c4b7b209b2b230b0461671ea23636f2f8290240"/>
